@@ -125,6 +125,9 @@ nav {
     margin: 10px 0;
     font-size: 1.5rem;
   }
+  nav .nav-links ul li a {
+    font-size: 17px;
+  }
   .menu-burger .menu-icon.hidden {
     display: none; /* Hide menu icon when menu is open */
   }
@@ -144,8 +147,10 @@ nav {
   align-items: center;
   text-align: center;
   overflow: hidden; /* Pour éviter le débordement de l'image */
+  /* Effet hover pour le bouton */
+  /* Responsive styling for mobile */
+  /* Responsive Styles pour le reste */
 }
-
 .banner-image {
   position: absolute;
   top: 0;
@@ -155,26 +160,21 @@ nav {
   object-fit: cover; /* Pour couvrir toute la bannière */
   z-index: -1; /* Met l'image derrière le contenu de la bannière */
 }
-
 .banner-content {
   color: var(--color-light);
   padding: 0 20px;
 }
-
 .banner-content h1 {
   font-weight: 700; /* Bold pour le titre */
   font-size: 3rem;
   margin: 0;
 }
-
 .banner-content h2 {
   font-weight: 400; /* Regular pour le titre */
   font-size: 1.5rem;
   margin-top: 10px;
 }
-
 .banner-content .btn {
-  /* PB ICI */
   display: inline-block;
   color: var(--color-light);
   padding: 10px 20px;
@@ -184,7 +184,6 @@ nav {
   border-radius: 5px;
   transition: background-color 0.3s;
 }
-
 .banner-content .btn-anchors {
   display: inline-block;
   color: var(--color-light);
@@ -195,17 +194,13 @@ nav {
   border-radius: 5px;
   transition: background-color 0.3s;
 }
-
-/* Effet hover pour le bouton */
 .banner-content .btn-anchors:hover {
   background-color: var(--color-primary);
   transform: scale(1.05); /* Légère augmentation de la taille au survol */
 }
-
-/* Responsive styling for mobile */
 @media (max-width: 768px) {
   .banner {
-    height: 80vh; /* Hauteur de la bannière sur mobile */
+    height: 80vh;
   }
   .banner-content .btn-anchors {
     color: var(--color-light);
@@ -213,41 +208,35 @@ nav {
     width: 80%;
   }
 }
-/* Responsive Styles pour le reste */
 @media (max-width: 480px) {
-  .banner-content h1 {
+  .banner .banner-content h1 {
     font-size: 2rem;
   }
 }
-.banner-content h2 {
+.banner .banner-content h2 {
   font-size: 1.2rem;
 }
-
-.banner-content .btn {
+.banner .banner-content .btn {
   font-size: 1rem;
   padding: 8px 16px;
 }
-
-nav .nav-links ul li a {
+.banner nav .nav-links ul li a {
   font-size: 16px;
 }
-
 @media (max-width: 768px) {
-  .banner {
+  .banner .banner {
     height: 60vh;
-  }
-  nav .nav-links ul li a {
-    font-size: 17px;
   }
 }
 @media (min-width: 1920px) {
-  .banner-content h1 {
+  .banner .banner-content h1 {
     font-size: 4rem;
   }
-  .banner-content h2 {
+  .banner .banner-content h2 {
     font-size: 2rem;
   }
 }
+
 /************************Main Content Container ****************************/
 .container {
   max-width: var(--max-width-container);
@@ -991,8 +980,7 @@ footer {
   width: 100%;
 }
 
-.footer,
-h3 {
+.footer, h3 {
   color: var(--color-primary);
 }
 
