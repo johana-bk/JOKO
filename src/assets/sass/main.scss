@@ -1,0 +1,20 @@
+@import 'typography.scss';
+@import 'variables.scss';
+@import 'header.scss';
+@import 'components.scss';
+@import 'footer.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0 auto;
+    font-family: var(--font-poppins);
+    overflow-x: hidden;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+  }
+  
+  
