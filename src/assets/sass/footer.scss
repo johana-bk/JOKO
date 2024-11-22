@@ -1,69 +1,67 @@
 /************************************ Footer *********************************************************/
 footer {
-    background-color: var(--color-dark);
-    color: var(--color-light);
-    padding: 20px 0px;
-    width: 100%;
-  }
-  
-  .footer,
-  h3 {
-    color: var(--color-primary);
-  }
-  
-  .footer-container {
-    max-width: var(--max-width-container);
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px 0;
-  }
-  
-  .footer-logo {
-    display: flex;
-  }
-  
-  .footer-logo img {
-    width: 150px;
-    height: auto;
-  }
-  
-  .footer-about,
-  .footer-links,
-  .footer-contact {
-    flex: 1;
-    min-width: 250px;
-    margin: 20px;
-  }
-  
-  .footer-links ul,
-  .footer-contact ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-links ul li a,
-  .footer-contact ul li a {
-    color: var(--color-light);
-    text-decoration: none;
-  }
-  
-  .footer-links ul li a:hover,
-  .footer-contact ul li a:hover {
-    color: var(--color-primary);
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .footer-bottom a {
-    color: var(--color-light);
-  }
-  
-  .footer-bottom a:hover {
-    color: var(--color-primary);
-  }
-  
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.footer, h3 {
+  color: var(--color-primary);
+}
+
+.footer-container {
+  max-width: var(--max-width-container);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  display: flex;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px;
+}
+
+.footer-links ul,
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a,
+.footer-contact ul li a {
+  color: var(--color-light);
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover,
+.footer-contact ul li a:hover {
+  color: var(--color-primary);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom a {
+  color: var(--color-light);
+}
+
+.footer-bottom a:hover {
+  color: var(--color-primary);
+}

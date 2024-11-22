@@ -1,17 +1,17 @@
- /* Déclaration des variables */
- :root {
-    --font-poppins: "Poppins", sans-serif;
-    --color-primary: #ff6600;
-    --color-secondary: #f9f9f9;
-    --color-terciary: #705eff;
-    --background-gradient: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 1) 0%,
-      rgba(112, 94, 255, 1) 100%
-    );
-    --color-primarybtnhoover: #a84300;
-    --color-dark: #101818;
-    --color-light: white;
-    --color-star: #ffc40c;
-    --max-width-container: 1170px; /* Largeur maximale pour le conteneur */
-  }
+/* Déclaration des variables */
+:root {
+  --font-poppins: "Poppins", sans-serif;
+  --color-primary: #ff6600;
+  --color-secondary: #f9f9f9;
+  --color-terciary: #705eff;
+  --background-gradient: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(112, 94, 255, 1) 100%
+  );
+  --color-primarybtnhoover: #a84300;
+  --color-dark: #101818;
+  --color-light: white;
+  --color-star: #ffc40c;
+  --max-width-container: 1170px; /* Largeur maximale pour le conteneur */
+}
