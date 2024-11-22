@@ -1,0 +1,15 @@
+**À faire :**
+
+1. Installer Tailwind et intégrer cette section d'équipe : (https://tailwindui.com/components/marketing/sections/team-sections) dans la page `agence.html`.
+
+2. Nettoyer le code CSS pour éviter les duplications, notamment pour les polices et leurs tailles.
+
+3. Installer Sass et minifier le fichier CSS.
+
+4. Sécuriser le formulaire de contact
+
+5. Expliquer le code JS 
+
+6. Résoudre les potentielles erreurs JS 
+
+**Optionnel :** Utiliser Vue.js.
