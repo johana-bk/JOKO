@@ -1,9 +1,0 @@
-RewriteEngine On
-
-Spécifier l'emplacement du fichier index.html
-DirectoryIndex src/index.html
-
-Réécrire les URL pour accéder aux fichiers dans le dossier "pages"
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /src/pages/$1 [L]
